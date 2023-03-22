@@ -33,7 +33,7 @@ public class PrimesGeneratorHarness {
         log.info("Initialized PrimesGeneratorHarness");
     }
 
-    protected List<Long> generatePrimes(Long upperLimit, PrimesGenerator.PrimesStrategy algorithm) {
+    public List<Long> generatePrimes(Long upperLimit, PrimesGenerator.PrimesStrategy algorithm) {
         PrimesGenerator primesGenerator = null;
         switch (algorithm) {
             case FORK_JOIN:
