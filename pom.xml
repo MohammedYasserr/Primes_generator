@@ -50,6 +50,33 @@
           <artifactId>slf4j-api</artifactId>
           <version>1.7.30</version>
       </dependency>
+      <dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-web</artifactId>
+          <version>5.3.14-SNAPSHOT</version>
+      </dependency>
+    <dependency>
+      <groupId>xerces</groupId>
+      <artifactId>xercesImpl</artifactId>
+      <version>2.9.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>5.3.14-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-core</artifactId>
+      <version>3.4.12</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.swagger/swagger-annotations -->
+    <dependency>
+      <groupId>io.swagger</groupId>
+      <artifactId>swagger-annotations</artifactId>
+      <version>1.5.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
