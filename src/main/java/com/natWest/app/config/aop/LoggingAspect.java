@@ -19,7 +19,7 @@ public class LoggingAspect {
 
     private final Logger log = LoggerFactory.getLogger(this.getClass());
 
-    @Pointcut("within(com.skua.primes.domain..*) || within(com.skua.primes.service..*) || within(com.skua.primes.api..*)")
+    @Pointcut("within(com.natWest.primes.domain..*) || within(com.natWest.primes.service..*) || within(com.natWest.primes.api..*)")
     public void loggingPointcut() {
     }
 
